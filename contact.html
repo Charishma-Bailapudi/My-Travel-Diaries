@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #register-form{
+        text-align: center;
+        width: 600px;
+        height:350px;
+        background-color: white;
+        padding:0px;
+        margin-left: auto;
+        margin-right: auto;
+        border:1px solid black
+      }
+      .input-item{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            width: 100%;
+            border:0;
+            border-bottom: 1px solid #ccc ;
+        }
+        #input-box{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+        #btn{
+            background-Color: rgb(6, 6, 29);
+            Padding-Top: 12px;
+            padding-bottom: 12px;
+            padding-right: 24px;
+            padding-left: 24px;
+            Font-Size:18px;
+            color: white;
+            Border: None;
+        }
+        table{
+        width:100%;
+        margin-top: 24px;
+        margin-bottom: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 60px;
+    }
+    table,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 12px;
+    }
+    td{
+        padding: 10px;
+        font-size:20px;
+    }
+
+    </style>
+    
+</head>
+<body style="margin: 0;background-color:whitesmoke">
+    <header >
+        <nav  style="text-align: center;background-color: rgb(9, 9, 78);padding:20px;"> 
+               <a style="text-decoration-color:white;text-decoration-thickness:1px"  href="finalproj.html"><span style="color: white;padding: 10px;font-size:20px;" >TRIPS </span></a> 
+                <a style="text-decoration-color:white;text-decoration-thickness:1px" href="about.html"><span style="color: white;padding: 10px;font-size:20px;">ABOUT</span></a>
+                <a style="text-decoration-color:white;text-decoration-thickness:1px" href="contact.html"><span style="color: white;padding: 10px;font-size:20px;">CONTACT</span></a>
+        </nav>
+    </header>
+    <h1 style="text-align: center;">Wanna come on my next trip? Contact Me</h1>
+    <form id=register-form>  
+        <div id="input-box">
+            <div>
+               <input  class="input-item" type="text" name="full-name" placeholder="Full Name" required>
+            </div>
+            <div>
+                        <input   class="input-item" type="email" name="Email" placeholder="Email" required>
+            </div>
+            <div>
+                <input   class="input-item" type="tel" name="Contact Number" placeholder="Contact Number" required>
+           </div>
+           <div>
+            <input  id="btn" type="submit" name="submit" value="Submit" >
+        </div>
+        </div>
+    </form>
+
+    <table>
+        <tr style="background-color: black;color: white;">
+            <td >TRIPS</td>
+            <td style="text-align: center;">ABOUT</td>
+            <td style="text-align: right;">CONTACT</td>
+        </tr>
+    </table>
+
+</body>
+</html>
